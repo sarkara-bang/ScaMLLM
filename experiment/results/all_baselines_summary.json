@@ -1,0 +1,245 @@
+{
+  "MolT5": {
+    "generation_metrics": {
+      "total_generated": 1007,
+      "total_valid": 1007,
+      "total_unique": 186,
+      "validity": 100.0,
+      "uniqueness": 18.47,
+      "diversity": 0.8502
+    },
+    "task_metrics": {
+      "total_evaluated": 2000,
+      "scaffold_preserved": 0,
+      "scaffold_preservation_rate": 0.0,
+      "properties_satisfied": 38,
+      "property_satisfaction_rate": 1.9,
+      "overall_success": 0,
+      "overall_success_rate": 0.0
+    },
+    "property_metrics": {
+      "MW": {
+        "count": 653,
+        "MAE": 185.219,
+        "RMSE": 227.616,
+        "std": 227.164,
+        "R2": -3.8039,
+        "MAPE": 38.7,
+        "mean_target": 477.43,
+        "mean_pred": 463.1
+      },
+      "LogP": {
+        "count": 888,
+        "MAE": 7.078,
+        "RMSE": 7.697,
+        "std": 6.21,
+        "R2": -9.0028,
+        "MAPE": 255.93,
+        "mean_target": 4.18,
+        "mean_pred": -0.37
+      },
+      "HBD": {
+        "count": 392,
+        "MAE": 3.388,
+        "RMSE": 4.259,
+        "std": 2.716,
+        "R2": -7.7467,
+        "MAPE": 194.02,
+        "mean_target": 2.16,
+        "mean_pred": 5.44
+      },
+      "HBA": {
+        "count": 391,
+        "MAE": 6.619,
+        "RMSE": 9.434,
+        "std": 7.33,
+        "R2": -26.2716,
+        "MAPE": 184.19,
+        "mean_target": 4.62,
+        "mean_pred": 10.56
+      },
+      "TPSA": {
+        "count": 0,
+        "MAE": "N/A",
+        "RMSE": "N/A",
+        "std": "N/A",
+        "R2": "N/A",
+        "MAPE": "N/A",
+        "mean_target": "N/A",
+        "mean_pred": "N/A"
+      },
+      "QED": {
+        "count": 0,
+        "MAE": "N/A",
+        "RMSE": "N/A",
+        "std": "N/A",
+        "R2": "N/A",
+        "MAPE": "N/A",
+        "mean_target": "N/A",
+        "mean_pred": "N/A"
+      }
+    }
+  },
+  "DrugAssist-7B": {
+    "generation_metrics": {
+      "total_generated": 1272,
+      "total_valid": 1272,
+      "total_unique": 363,
+      "validity": 100.0,
+      "uniqueness": 28.54,
+      "diversity": 0.8985
+    },
+    "task_metrics": {
+      "total_evaluated": 2000,
+      "scaffold_preserved": 0,
+      "scaffold_preservation_rate": 0.0,
+      "properties_satisfied": 17,
+      "property_satisfaction_rate": 0.85,
+      "overall_success": 0,
+      "overall_success_rate": 0.0
+    },
+    "property_metrics": {
+      "MW": {
+        "count": 1004,
+        "MAE": 286.246,
+        "RMSE": 330.227,
+        "std": 216.602,
+        "R2": -11.1756,
+        "MAPE": 59.96,
+        "mean_target": 471.3,
+        "mean_pred": 222.03
+      },
+      "LogP": {
+        "count": 1197,
+        "MAE": 5.011,
+        "RMSE": 6.304,
+        "std": 4.487,
+        "R2": -6.5607,
+        "MAPE": 163.05,
+        "mean_target": 4.56,
+        "mean_pred": 0.13
+      },
+      "HBD": {
+        "count": 350,
+        "MAE": 2.329,
+        "RMSE": 3.721,
+        "std": 3.72,
+        "R2": -6.0116,
+        "MAPE": 124.53,
+        "mean_target": 2.0,
+        "mean_pred": 2.08
+      },
+      "HBA": {
+        "count": 417,
+        "MAE": 3.317,
+        "RMSE": 4.265,
+        "std": 3.648,
+        "R2": -4.5744,
+        "MAPE": 71.26,
+        "mean_target": 4.59,
+        "mean_pred": 2.38
+      },
+      "TPSA": {
+        "count": 0,
+        "MAE": "N/A",
+        "RMSE": "N/A",
+        "std": "N/A",
+        "R2": "N/A",
+        "MAPE": "N/A",
+        "mean_target": "N/A",
+        "mean_pred": "N/A"
+      },
+      "QED": {
+        "count": 0,
+        "MAE": "N/A",
+        "RMSE": "N/A",
+        "std": "N/A",
+        "R2": "N/A",
+        "MAPE": "N/A",
+        "mean_target": "N/A",
+        "mean_pred": "N/A"
+      }
+    }
+  },
+  "LLaMA2-7B-chat": {
+    "generation_metrics": {
+      "total_generated": 77,
+      "total_valid": 77,
+      "total_unique": 11,
+      "validity": 100.0,
+      "uniqueness": 14.29,
+      "diversity": 0.4093
+    },
+    "task_metrics": {
+      "total_evaluated": 2000,
+      "scaffold_preserved": 0,
+      "scaffold_preservation_rate": 0.0,
+      "properties_satisfied": 4,
+      "property_satisfaction_rate": 0.2,
+      "overall_success": 0,
+      "overall_success_rate": 0.0
+    },
+    "property_metrics": {
+      "MW": {
+        "count": 57,
+        "MAE": 260.989,
+        "RMSE": 289.02,
+        "std": 247.184,
+        "R2": -7.2437,
+        "MAPE": 54.13,
+        "mean_target": 471.11,
+        "mean_pred": 321.33
+      },
+      "LogP": {
+        "count": 71,
+        "MAE": 4.255,
+        "RMSE": 4.976,
+        "std": 3.537,
+        "R2": -2.701,
+        "MAPE": 93.98,
+        "mean_target": 4.83,
+        "mean_pred": 1.33
+      },
+      "HBD": {
+        "count": 20,
+        "MAE": 1.6,
+        "RMSE": 2.145,
+        "std": 1.897,
+        "R2": -1.3469,
+        "MAPE": 70.0,
+        "mean_target": 1.8,
+        "mean_pred": 2.8
+      },
+      "HBA": {
+        "count": 28,
+        "MAE": 2.607,
+        "RMSE": 3.268,
+        "std": 2.845,
+        "R2": -3.2283,
+        "MAPE": 55.66,
+        "mean_target": 4.79,
+        "mean_pred": 6.39
+      },
+      "TPSA": {
+        "count": 0,
+        "MAE": "N/A",
+        "RMSE": "N/A",
+        "std": "N/A",
+        "R2": "N/A",
+        "MAPE": "N/A",
+        "mean_target": "N/A",
+        "mean_pred": "N/A"
+      },
+      "QED": {
+        "count": 0,
+        "MAE": "N/A",
+        "RMSE": "N/A",
+        "std": "N/A",
+        "R2": "N/A",
+        "MAPE": "N/A",
+        "mean_target": "N/A",
+        "mean_pred": "N/A"
+      }
+    }
+  }
+}

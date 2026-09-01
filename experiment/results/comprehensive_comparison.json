@@ -1,0 +1,67 @@
+{
+  "MolT5": {
+    "total_samples": 0,
+    "total_valid": 1007,
+    "total_unique": 186,
+    "validity": 100.0,
+    "uniqueness": 18.47,
+    "diversity": 0.8502,
+    "total_evaluated": 2000,
+    "scaffold_preserved": 0,
+    "scaffold_preservation_rate": 0.0,
+    "properties_satisfied": 38,
+    "property_satisfaction_rate": 1.9
+  },
+  "DrugAssist-7B": {
+    "total_samples": 0,
+    "total_valid": 1272,
+    "total_unique": 363,
+    "validity": 100.0,
+    "uniqueness": 28.54,
+    "diversity": 0.8985,
+    "total_evaluated": 2000,
+    "scaffold_preserved": 0,
+    "scaffold_preservation_rate": 0.0,
+    "properties_satisfied": 17,
+    "property_satisfaction_rate": 0.85
+  },
+  "LLaMA2-7B-chat": {
+    "total_samples": 0,
+    "total_valid": 77,
+    "total_unique": 11,
+    "validity": 100.0,
+    "uniqueness": 14.29,
+    "diversity": 0.4093,
+    "total_evaluated": 2000,
+    "scaffold_preserved": 0,
+    "scaffold_preservation_rate": 0.0,
+    "properties_satisfied": 4,
+    "property_satisfaction_rate": 0.2
+  },
+  "Multimodal (Text-only)": {
+    "total_samples": 0,
+    "total_valid": 1694,
+    "total_unique": 1694,
+    "validity": 100.0,
+    "uniqueness": 100.0,
+    "diversity": 0.8551,
+    "total_evaluated": 1694,
+    "scaffold_preserved": 13,
+    "scaffold_preservation_rate": 1.10,
+    "properties_satisfied": 753,
+    "property_satisfaction_rate": 44.45
+  },
+  "Multimodal (Full)": {
+    "total_samples": 2000,
+    "total_valid": 1938,
+    "total_unique": 1938,
+    "validity": 96.9,
+    "uniqueness": 100.0,
+    "diversity": 0.8552,
+    "total_evaluated": 1938,
+    "scaffold_preserved": 1767,
+    "scaffold_preservation_rate": 91.18,
+    "properties_satisfied": 1461,
+    "property_satisfaction_rate": 75.39
+  }
+}
