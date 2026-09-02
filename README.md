@@ -20,9 +20,10 @@ The expected directory structure is:
 
 ```text
 models/
-├── ...
-├── ...
-└── ...
+├── DrugAssist-7B
+├── ImageMol
+├── Llama-2-7b-chat-hf
+└── lora_finetuned
 ```
 
 Please make sure that the downloaded model weights are placed in the correct locations before running the training or inference scripts.
